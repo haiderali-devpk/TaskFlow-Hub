@@ -98,11 +98,16 @@ body{
   align-items: flex-start;
 }
 
-li{
+li {
   font-size: 20px;
   width: 100%;
   border-bottom: 2px solid #ccc;
-  padding: 5px 0 10px 0; 
+  padding: 10px 0;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 @media (max-width: 767px) {
